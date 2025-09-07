@@ -38,7 +38,7 @@ export default async function handler(request, response) {
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Panel</title>
+                <title>Program zebrań</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -135,7 +135,7 @@ export default async function handler(request, response) {
                         const firstMenuItem = sideMenu.querySelector('.menu-item');
                         if (firstMenuItem) firstMenuItem.click();
                     } else {
-                        titleEl.textContent = "Panel";
+                        titleEl.textContent = "Program zebrań";
                         frame.contentWindow.document.body.innerHTML = '<div style="padding: 2rem; text-align: center;"><h2>Witaj!</h2><p>Brak dostępnych plików do wyświetlenia.</p></div>';
                     }
                 </script>
